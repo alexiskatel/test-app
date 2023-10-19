@@ -1,0 +1,44 @@
+@import url('bootstrap/dist/css/bootstrap.min.css');
+
+@font-face {
+  font-family: 'Rubik';
+  src: url('./assets/font/Rubik/static/Rubik-Regular.ttf');
+}
+
+.font-rubik {
+  font-family: 'Rubik', sans-serif !important;
+}
+
+.text-blue {
+  color: #05BAFF;
+}
+
+.text-red {
+  color: #FF4D50;
+}
+
+.bg-blue {
+  background-color: #05BAFF;
+}
+
+.bg-red {
+  background-color: #FF4D50;
+}
+
+.bg-orange {
+  background-color: #FFD6B5;
+}
+
+.bg-yellow {
+  background-color: #FDCB68;
+}
+
+.fs-6 {
+  font-size: 0.7rem !important;
+}
+
+@media (min-width: 1200px) {
+  .welcome-section, .services-section, .about-section {
+    width: 62rem;
+  }
+}

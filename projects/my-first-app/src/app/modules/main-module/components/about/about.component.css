@@ -1,0 +1,57 @@
+.about span {
+  line-height: 2.5rem;
+}
+
+.about p {
+  line-height: 1rem;
+  opacity: 0.7;
+}
+
+.about .about-img {
+  background-color: #F0EFEF !important;
+  border-radius: 10px;
+}
+
+.about .about-img img {
+  width: 100%;
+  /* z-index: 1; */
+}
+
+.year-value {
+  font-size: 12rem;
+}
+
+.about .experience p {
+  line-height: 0.2rem;
+}
+
+.about .experience {
+  margin-right: 4rem;
+  z-index: 2 !important;
+}
+
+.about .experience .text {
+  position: relative;
+  top: 2rem;
+}
+
+.circle-orange {
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: -2rem;
+  z-index: -1;
+}
+
+.circle-blue {
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 50%;
+  position: absolute;
+  top: 4.2rem;
+  left: -1rem;
+  z-index: -1;
+  opacity: 0.5;
+}
