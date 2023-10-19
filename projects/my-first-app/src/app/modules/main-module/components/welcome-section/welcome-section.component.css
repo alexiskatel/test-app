@@ -1,0 +1,42 @@
+.welcome-section {
+  height: 100vh;
+}
+
+.greeting-box p {
+  line-height: 2.8rem;
+}
+
+.greeting-img {
+  position: relative;
+}
+
+.greeting-img img {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .greeting-img img {
+    position: absolute;
+    top: -8rem;
+  }
+}
+
+
+.circle-top-yellow {
+  position: absolute;
+  height: 7rem;
+  width: 7rem;
+  border-radius: 50%;
+  left: -5.8rem;
+  bottom: 32vh;
+}
+
+.circle-bottom-yellow {
+  position: absolute;
+  height: 3rem;
+  width: 8rem;
+  border-radius: 50%;
+  left: -5.8rem;
+  bottom: 23vh;
+  transform: rotate(-50deg);
+}

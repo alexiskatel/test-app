@@ -1,0 +1,19 @@
+.services {
+  background-color: #F1F5F6;
+}
+
+.services .card-data img {
+  width: 2.5rem;
+}
+
+.statistics span {
+  line-height: 2rem;
+}
+
+.statistics .description span {
+  line-height: 0.5rem !important;
+}
+
+.services .statistics img {
+  width: 3rem;
+}

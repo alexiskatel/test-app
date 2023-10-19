@@ -1,0 +1,14 @@
+.app-button {
+  transition: 0.2s;
+  border-radius: 5px;
+  margin-right: 0.5rem;
+}
+
+.active {
+  box-shadow: 0 8px 10px 0px #05BAFF;
+}
+
+.app-button:hover {
+  box-shadow: none;
+  transform: scale(1.1);
+}
