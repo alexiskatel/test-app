@@ -1,0 +1,69 @@
+@import url("bootstrap/dist/css/bootstrap.min.css");
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('./assets/font/Montserrat/Montserrat-VariableFont_wght.ttf');
+}
+
+body {
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.home {
+  background-color: rgb(251, 228, 198);
+
+  .card-content {
+    border-radius: 15px;
+    min-height: 20rem;
+    position: relative;
+    overflow: hidden;
+
+    .content {
+      background-image: url("./assets/images/mur.jpg");
+      background-size: cover;
+      display: flex;
+      width: 5rem;
+      
+    }
+
+    .process {
+      border-radius: 10px;
+      cursor: pointer;
+      transition: 0.5s;
+
+      &:hover {
+        outline: 1px solid green;
+        background-color: transparent !important;
+        color: black !important;
+      }
+    }
+
+    .result {
+      box-shadow: inset 0 0 10px 0 gray;
+      padding: 2.5rem 2rem;
+      border-radius: 10px;
+      position: relative;
+
+      .copy {
+        position: absolute;
+        right: 1rem;
+        top: 0.5rem;
+        cursor: pointer;
+      }
+    }
+  }
+
+  textarea {
+    box-shadow: none !important;
+    outline: 1px solid blue;
+
+    &:focus {
+      outline: 1px solid green;
+    }
+  }
+
+  .response {
+    border: none !important;
+    outline: none !important;
+  }
+}
