@@ -1,0 +1,11 @@
+.libelle {
+    transform: rotate(-90deg);
+    position: absolute;
+    white-space: nowrap;
+    left: -7.7rem;
+    top: 15rem;
+
+    span {
+      letter-spacing: 10px;
+    }
+  }
