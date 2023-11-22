@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve cryptography -o",
-    "build": "ng build cryptography",
+    "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
