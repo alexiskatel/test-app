@@ -3,8 +3,8 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve my-first-app -o",
-    "build": "ng build",
+    "start": "ng serve cryptography -o",
+    "build": "ng build cryptography",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
@@ -14,7 +14,7 @@
     "@angular/common": "^16.1.0",
     "@angular/compiler": "^16.1.0",
     "@angular/core": "^16.1.0",
-    "@angular/forms": "^16.1.0",
+    "@angular/forms": "^16.2.12",
     "@angular/platform-browser": "^16.1.0",
     "@angular/platform-browser-dynamic": "^16.1.0",
     "@angular/router": "^16.1.0",
